@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+    font-size: small;
+}
+
+.nama h3{
+    font-family: "Playwrite NZ", cursive;
+
+}
+.banner {
+    height: 700px;
+    background-image: url(unsplash/pexels-nicole-avagliano-1132392-2749481.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .judul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 100px;
+    height: 500px;
+    color: white;
+}
+
+.banner .judul h3 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+button {
+    margin-top: 10px;
+    width: 120px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(0, 183, 255);
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.div {
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 700px;
+}
+
+/* about me */
+.container1 {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.container1 h3 {
+    font-family: "Playwrite NZ", cursive;
+
+}
+
+.container1 p {
+    /* width:60% ; */
+    margin-top: 20px;
+
+}
+
+.thumbnail1{
+    width: 30%;
+}
+.thumbnail1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.b{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container2{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+
+/* galery */
+.container2 h3{
+    font-family: "Playwrite NZ", cursive;
+
+}
+.flex2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.flex2 .thumbnail2{
+    width: 30%;
+}
+.flex2 .thumbnail2 img{
+    width: 100%;
+    height: 100%;
+}
+/* footer */
+
+
+footer{
+    width: 100%;
+    margin: 0;
+    background-color:rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer p{
+    font-size: small;
+}
+
+@media screen and (max-width:425px) {
+    .div{
+        height: 500px;
+    }
+    nav ul{
+       display: none;
+    }
+    .banner .judul h3 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .banner{
+        height: 500px;
+    }
+    .banner .judul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        margin-left: 20px;
+        height: 300px;
+        color: white;
+        /* margin-top: 100px; */
+    }
+    .judul p{
+        font-size: small;
+    }
+    
+    .container1 .a p{
+        font-size: small;
+    }
+    .flex2 .thumbnail2{
+        width: 100%;
+    }
+    .flex2 .thumbnail2 img{
+        width: 100%;
+        height: 95%;
+    }
+    .container2 p{
+        font-size: small;
+    }
+    /* nav{
+        display: none;
+    } */
+}
